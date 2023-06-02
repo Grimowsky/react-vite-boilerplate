@@ -1,0 +1,28 @@
+{
+  "name": "react-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "ReactJS & Vite boilerplate",
+  "main": "main.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grimowsky/react-vite-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "boilerplate"
+  ],
+  "author": "Grimm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grimowsky/react-vite-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Grimowsky/react-vite-boilerplate#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

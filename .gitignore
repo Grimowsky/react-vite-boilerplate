@@ -31,3 +31,7 @@ yarn-error.log*
 
 *.iml
 *.tgz
+
+tsconfig.tsbuildinfo
+vite.config.d.ts
+vite.config.js

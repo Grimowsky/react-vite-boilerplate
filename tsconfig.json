@@ -1,26 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "baseUrl": "./",
-    "paths": {
-      "*": [
-        "./src/*"
-      ]
-    },
-    "outDir": "./lib",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "composite": true,
     "skipLibCheck": true,
-    "jsx": "react"
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-  ]
+  "include": ["vite.config.ts"]
 }

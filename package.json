@@ -31,7 +31,8 @@
   "homepage": "https://github.com/Grimowsky/react-vite-boilerplate#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
   },
   "devDependencies": {
     "eslint-config-grimowsky": "^1.0.8",

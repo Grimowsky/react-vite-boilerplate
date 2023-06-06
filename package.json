@@ -1,0 +1,56 @@
+{
+  "name": "react-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "ReactJS & Vite boilerplate",
+  "main": "main.tsx",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext ts,tsx",
+    "lint:fix": "eslint src --ext ts,tsx --fix",
+    "preview": "vite preview",
+    "tsc": "tsc",
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grimowsky/react-vite-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "boilerplate"
+  ],
+  "author": "Grimm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grimowsky/react-vite-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Grimowsky/react-vite-boilerplate#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-grimowsky": "^1.0.8",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@vitest/ui": "^0.31.4",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-svgr": "^3.2.0",
+    "vitest": "^0.31.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-grimowsky"
+    ],
+    "root": true
+  }
+}

@@ -1,4 +1,3 @@
-import React from 'react';
 import { renderWithProviders } from '../../../testUtils/render.helper';
 import { describe, it, expect } from 'vitest';
 import { NavigateTest } from '../NavigateTest';

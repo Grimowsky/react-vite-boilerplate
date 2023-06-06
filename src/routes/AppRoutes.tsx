@@ -1,4 +1,3 @@
-import React from 'react';
 import { routes } from './routes.schema';
 import { Route, Routes } from 'react-router-dom';
 import { NavigateTest } from '../components/NavigateTest/NavigateTest';

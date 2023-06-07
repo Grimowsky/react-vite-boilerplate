@@ -43,8 +43,13 @@ jobs:
         run: npm run lint
 
       - name: Execute tests cases
-        run: npm run test
+        run: npm run test:coverage
 
       - name: Create Build
         run: npm run build
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 

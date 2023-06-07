@@ -8,6 +8,7 @@
     "start": "vite --open",
     "test": "vitest",
     "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
     "lint": "eslint src --ext ts,tsx",
     "lint:fix": "eslint src --ext ts,tsx --fix",
     "preview": "vite preview",
@@ -41,6 +42,7 @@
     "@types/react": "^18.2.8",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "^4.0.0",
+    "@vitest/coverage-istanbul": "^0.32.0",
     "@vitest/ui": "^0.31.4",
     "eslint-config-grimowsky": "^1.0.8",
     "history": "^5.3.0",
@@ -48,7 +50,7 @@
     "typescript": "5.0.3",
     "vite": "^4.3.9",
     "vite-plugin-svgr": "^3.2.0",
-    "vitest": "^0.31.4"
+    "vitest": "^0.32.0"
   },
   "eslintConfig": {
     "extends": [

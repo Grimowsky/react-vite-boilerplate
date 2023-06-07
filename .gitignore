@@ -14,6 +14,7 @@ build
 .jestCache
 
 # misc
+coverage
 .DS_Store
 .awcache
 .env.local
